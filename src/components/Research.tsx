@@ -17,7 +17,7 @@ const Research = () => {
       description: "An innovative approach to promoting tourism by leveraging machine learning algorithms to identify and recommend lesser-known tourist destinations. The study uses Random Forest algorithms to analyze various factors and predict the tourism potential of underexplored locations in Maharashtra.",
       status: "published",
       tags: ["Machine Learning", "Tourism", "Random Forest", "Data Analysis"],
-      year: "2025",
+      year: "2024",
       pdfLink: "https://drive.google.com/file/d/1aBf3paCbDx34ZIdXvbtSBDH8rjI4KWCy/view?usp=sharing"
     },
     {
