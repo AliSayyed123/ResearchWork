@@ -2,7 +2,7 @@
 
 Welcome to the official website for my academic research work. This portfolio presents selected research projects I've worked on, with direct access to publications and key insights.
 
-🔗 **Live Website:** [[https://yourwebsite.com](https://yourwebsite.com) ](https://alisayyedresearchwork.vercel.app/)  
+🔗 **Live Website:** (https://alisayyedresearchwork.vercel.app/)  
 ---
 
 ## 🧠 Featured Research
