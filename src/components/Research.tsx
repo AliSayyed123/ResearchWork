@@ -9,21 +9,24 @@ const Research = () => {
       description: "A comprehensive platform designed to connect farmers directly with markets, eliminating middlemen and ensuring fair pricing. This research explores the integration of IoT sensors, mobile applications, and data analytics to create a seamless marketplace for agricultural products.",
       status: "published",
       tags: ["Agriculture", "IoT", "Mobile Technology", "Market Access"],
-      year: "2023"
+      year: "2023",
+      pdfLink: "https://drive.google.com/file/d/1F9Mp1NLRqU1T3WA-qXNOOTPENxs7EqmM/view?usp=sharing"
     },
     {
       title: "Reviving Lesser-Known Tourist Sites in Maharashtra using Random Forest",
       description: "An innovative approach to promoting tourism by leveraging machine learning algorithms to identify and recommend lesser-known tourist destinations. The study uses Random Forest algorithms to analyze various factors and predict the tourism potential of underexplored locations in Maharashtra.",
       status: "published",
       tags: ["Machine Learning", "Tourism", "Random Forest", "Data Analysis"],
-      year: "2023"
+      year: "2023",
+      pdfLink: "https://drive.google.com/file/d/1aBf3paCbDx34ZIdXvbtSBDH8rjI4KWCy/view?usp=sharing"
     },
     {
       title: "Real-Time Accident Detection using CNNs",
       description: "A cutting-edge computer vision system that employs Convolutional Neural Networks for real-time detection of traffic accidents. The research focuses on developing an efficient model that can process video streams and identify accident scenarios with high accuracy and minimal latency.",
       status: "published",
       tags: ["Computer Vision", "CNNs", "Real-time Processing", "Safety"],
-      year: "2024"
+      year: "2024",
+      pdfLink: "https://drive.google.com/file/d/1q5ip7QkBib2EZDvVzlVl7EfODJeIl9zT/view?usp=sharing"
     },
     {
       title: "Intelligent Agricultural Monitoring System",
@@ -86,14 +89,18 @@ const Research = () => {
                 <div className="lg:w-auto flex flex-col sm:flex-row lg:flex-col gap-3">
                   {paper.status === "published" && (
                     <>
-                      <Button variant="outline" size="sm" className="inline-flex items-center gap-2">
-                        <FileText className="w-4 h-4" />
-                        View PDF
-                        <ExternalLink className="w-3 h-3" />
+                      <Button variant="outline" size="sm" className="inline-flex items-center gap-2" asChild>
+                        <a href={paper.pdfLink} target="_blank" rel="noopener noreferrer">
+                          <FileText className="w-4 h-4" />
+                          View PDF
+                          <ExternalLink className="w-3 h-3" />
+                        </a>
                       </Button>
-                      <Button variant="ghost" size="sm" className="inline-flex items-center gap-2">
-                        <ExternalLink className="w-4 h-4" />
-                        External Link
+                      <Button variant="ghost" size="sm" className="inline-flex items-center gap-2" asChild>
+                        <a href={paper.pdfLink} target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="w-4 h-4" />
+                          External Link
+                        </a>
                       </Button>
                     </>
                   )}
