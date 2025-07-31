@@ -32,7 +32,7 @@ const Navigation = () => {
             </button>
             <Button variant="outline" size="sm" asChild>
               <a 
-                href="#" 
+                href="https://drive.google.com/file/d/1p-uWytjIdIBB7Bj0Rwh77nO5fTMHVkQb/view?usp=sharing" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2"
