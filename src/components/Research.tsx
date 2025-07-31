@@ -10,7 +10,7 @@ const Research = () => {
       status: "published",
       tags: ["Agriculture", "IoT", "Mobile Technology", "Market Access"],
       year: "2023",
-      pdfLink: "https://drive.google.com/file/d/1F9Mp1NLRqU1T3WA-qXNOOTPENxs7EqmM/view?usp=sharing"
+      pdfLink: "https://drive.google.com/file/d/1q5ip7QkBib2EZDvVzlVl7EfODJeIl9zT/view?usp=sharing"
     },
     {
       title: "Reviving Lesser-Known Tourist Sites in Maharashtra using Random Forest",
@@ -26,7 +26,7 @@ const Research = () => {
       status: "published",
       tags: ["Computer Vision", "CNNs", "Real-time Processing", "Safety"],
       year: "2024",
-      pdfLink: "https://drive.google.com/file/d/1q5ip7QkBib2EZDvVzlVl7EfODJeIl9zT/view?usp=sharing"
+      pdfLink: "https://drive.google.com/file/d/1F9Mp1NLRqU1T3WA-qXNOOTPENxs7EqmM/view?usp=sharing"
     },
     {
       title: "KrishiMitra: Real-Time Agricultural Bidding Through a Mobile-First Decentralized Architecture",
@@ -88,21 +88,13 @@ const Research = () => {
                 
                 <div className="lg:w-auto flex flex-col sm:flex-row lg:flex-col gap-3">
                   {paper.status === "published" && (
-                    <>
-                      <Button variant="outline" size="sm" className="inline-flex items-center gap-2" asChild>
-                        <a href={paper.pdfLink} target="_blank" rel="noopener noreferrer">
-                          <FileText className="w-4 h-4" />
-                          View PDF
-                          <ExternalLink className="w-3 h-3" />
-                        </a>
-                      </Button>
-                      <Button variant="ghost" size="sm" className="inline-flex items-center gap-2" asChild>
-                        <a href={paper.pdfLink} target="_blank" rel="noopener noreferrer">
-                          <ExternalLink className="w-4 h-4" />
-                          External Link
-                        </a>
-                      </Button>
-                    </>
+                    <Button variant="outline" size="sm" className="inline-flex items-center gap-2" asChild>
+                      <a href={paper.pdfLink} target="_blank" rel="noopener noreferrer">
+                        <FileText className="w-4 h-4" />
+                        View PDF
+                        <ExternalLink className="w-3 h-3" />
+                      </a>
+                    </Button>
                   )}
                   {paper.status === "upcoming" && (
                     <Badge variant="secondary" className="self-start">
