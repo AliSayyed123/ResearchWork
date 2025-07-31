@@ -9,7 +9,7 @@ const Research = () => {
       description: "A comprehensive platform designed to connect farmers directly with markets, eliminating middlemen and ensuring fair pricing. This research explores the integration of IoT sensors, mobile applications, and data analytics to create a seamless marketplace for agricultural products.",
       status: "published",
       tags: ["Agriculture", "IoT", "Mobile Technology", "Market Access"],
-      year: "2023",
+      year: "2025",
       pdfLink: "https://drive.google.com/file/d/1q5ip7QkBib2EZDvVzlVl7EfODJeIl9zT/view?usp=sharing"
     },
     {
@@ -17,7 +17,7 @@ const Research = () => {
       description: "An innovative approach to promoting tourism by leveraging machine learning algorithms to identify and recommend lesser-known tourist destinations. The study uses Random Forest algorithms to analyze various factors and predict the tourism potential of underexplored locations in Maharashtra.",
       status: "published",
       tags: ["Machine Learning", "Tourism", "Random Forest", "Data Analysis"],
-      year: "2023",
+      year: "2025",
       pdfLink: "https://drive.google.com/file/d/1aBf3paCbDx34ZIdXvbtSBDH8rjI4KWCy/view?usp=sharing"
     },
     {
@@ -33,7 +33,7 @@ const Research = () => {
       description: "Building upon the foundational KrishiMitra platform, this research advances the system to incorporate real-time bidding capabilities through a mobile-first decentralized architecture. The work explores blockchain integration, real-time price discovery, and distributed systems to create a more transparent and efficient agricultural marketplace.",
       status: "upcoming",
       tags: ["Agriculture", "Real-time Systems", "Decentralized Architecture", "Mobile Technology", "Blockchain"],
-      year: "2024"
+      year: "2026"
     }
   ];
 
