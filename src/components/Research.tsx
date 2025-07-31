@@ -29,10 +29,10 @@ const Research = () => {
       pdfLink: "https://drive.google.com/file/d/1q5ip7QkBib2EZDvVzlVl7EfODJeIl9zT/view?usp=sharing"
     },
     {
-      title: "Intelligent Agricultural Monitoring System",
-      description: "An upcoming research paper that explores the development of an intelligent monitoring system for agricultural applications. This work integrates multiple sensor technologies and machine learning algorithms to provide comprehensive crop monitoring and predictive analytics for farmers.",
+      title: "KrishiMitra: Real-Time Agricultural Bidding Through a Mobile-First Decentralized Architecture",
+      description: "Building upon the foundational KrishiMitra platform, this research advances the system to incorporate real-time bidding capabilities through a mobile-first decentralized architecture. The work explores blockchain integration, real-time price discovery, and distributed systems to create a more transparent and efficient agricultural marketplace.",
       status: "upcoming",
-      tags: ["Agriculture", "AI", "Monitoring Systems", "Predictive Analytics"],
+      tags: ["Agriculture", "Real-time Systems", "Decentralized Architecture", "Mobile Technology", "Blockchain"],
       year: "2024"
     }
   ];
